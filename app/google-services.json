@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "453396148923",
+    "firebase_url": "https://blackout-restuarant.firebaseio.com",
+    "project_id": "blackout-restuarant",
+    "storage_bucket": "blackout-restuarant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453396148923:android:0539ce45c865d6aa",
+        "android_client_info": {
+          "package_name": "com.example.saksham.blackoutrestuarant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453396148923-dnp6554nc0fs5q5a6sctb6qcthcaqga9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saksham.blackoutrestuarant",
+            "certificate_hash": "63d629d43bf2756cf88f329b2a4555cd837635b0"
+          }
+        },
+        {
+          "client_id": "453396148923-e1c6u27tejng8862aja84ob6ih30ndce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9z6RUngrUrnozE_kRYTnDMq1_okpDeAI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453396148923-e1c6u27tejng8862aja84ob6ih30ndce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

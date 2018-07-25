@@ -6,26 +6,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.saksham.blackoutrestuarant.MainMenuSelectionFrag">
+    tools:context="com.example.saksham.blackoutrestuarant.design.MainMenuSelectionFrag">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/appbar_padding_top"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:layout_weight="1"
-            android:background="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|enterAlways"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="@string/app_name">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:title="@string/app_name">
 
-        </android.support.v7.widget.Toolbar>
+            </android.support.v7.widget.Toolbar>
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
@@ -33,36 +34,97 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             app:tabGravity="fill"
-            app:tabMode="scrollable"
-            >
+            app:tabMode="scrollable">
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Veg" />
+                android:text="Veg Starter" />
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="NonVeg" />
+                android:text="NonVeg Starter" />
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Chinese" />
+                android:text="Main Course Veg" />
+
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Deserts" />
+                android:text="Main Course NonVeg" />
+
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Starter" />
+                android:text="Veg Soup" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NonVeg Soup" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mutton" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dal" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roti" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rice" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biryani" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paratha" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tea-Coffee" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mushroom" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll" />
 
         </android.support.design.widget.TabLayout>
     </android.support.design.widget.AppBarLayout>
@@ -73,12 +135,5 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end|bottom"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </android.support.design.widget.CoordinatorLayout>

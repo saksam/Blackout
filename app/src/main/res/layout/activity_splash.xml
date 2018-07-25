@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#b2ebf2"
-    tools:context="com.example.saksham.blackoutrestuarant.SplashActivity">
+    android:background="@color/primaryLightColor"
+    tools:context="com.example.saksham.blackoutrestuarant.design.SplashActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
